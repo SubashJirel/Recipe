@@ -57,8 +57,15 @@ li::before {
     margin-right: 10px;
 }
 
- .linkClass{
+ .linkClass,a{
     color: #fff;
     text-decoration: none;
     
+}
+
+.bottomOne,div {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    font-size: 120%;
 }
